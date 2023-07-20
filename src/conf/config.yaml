@@ -1,0 +1,12 @@
+#  Hydra.cc config file for Mediapipe to Openpose JSON export
+
+files:
+  test_img_path : /home/rhino/projects/ursize/mpipe2opose/data/input
+  moved_img_path: /home/rhino/projects/ursize/mpipe2opose/data/output/moved_image
+  mpipe_json_output_path: /home/rhino/projects/ursize/mpipe2opose/data/output/mpipe_skeleton_img
+  mpipe_skeleton_output_path: /home/rhino/projects/ursize/mpipe2opose/data/output/opose_json
+
+
+params:
+  # For Img JSON
+  write_json : True
